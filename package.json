@@ -1,0 +1,22 @@
+{
+  "name": "discordbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node .",
+    "update": "node deploy-commands.js",
+    "lint": "eslint ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.20.0"
+  },
+  "dependencies": {
+    "@discordjs/rest": "^1.0.1",
+    "discord.js": "^14.1.1",
+    "dotenv": "^16.0.1"
+  }
+}
